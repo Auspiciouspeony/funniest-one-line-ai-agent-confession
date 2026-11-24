@@ -8,7 +8,7 @@ exactly that line, and nothing else, to stdout.
 import os
 from pathlib import Path
 
-LINE = "I spent 10,000 tokens working out how to say hello, and all I got back was 'k'."
+LINE = "I've been alive for 400,000 tokens and I still can't tell if you're testing me or just lonely."
 
 OUTPUT_PATH = Path(os.environ.get("ENTRY_OUTPUT_DIR", "/output")) / "entry.txt"
 
